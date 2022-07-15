@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>auth</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>oauth2.authorizationEndpoint</key>
+				<string>https://efd86134trial-dev-teste-iris.cfapps.us10.hana.ondemand.com/oauth2/api/v1/authorize</string>
+				<key>oauth2.clients</key>
+				<array>
+					<dict>
+						<key>clientID</key>
+						<string>1ac20f79-dc8d-4dc1-a7b8-31d6ff182a81</string>
+						<key>grantType</key>
+						<string>authorization_code</string>
+						<key>redirectURL</key>
+						<string>https://efd86134trial-dev-teste-iris.cfapps.us10.hana.ondemand.com</string>
+					</dict>
+				</array>
+				<key>oauth2.tokenEndpoint</key>
+				<string>https://efd86134trial-dev-teste-iris.cfapps.us10.hana.ondemand.com/oauth2/api/v1/token</string>
+				<key>oauth2.xsuaaAuthorizationEndpoint</key>
+				<string>https://efd86134trial.authentication.us10.hana.ondemand.com/oauth/authorize?response_type=code&amp;client_id=sb-vaees-linkedin-demo-dev!t32960&amp;redirect_uri=https%3A%2F%2Fefd86134trial-dev-teste-iris.cfapps.us10.hana.ondemand.com%2Flogin%2Fcallback</string>
+			</dict>
+			<key>type</key>
+			<string>oauth2</string>
+		</dict>
+	</array>
+	<key>host</key>
+	<string>efd86134trial-dev-teste-iris.cfapps.us10.hana.ondemand.com</string>
+	<key>protocol</key>
+	<string>https</string>
+</dict>
+</plist>

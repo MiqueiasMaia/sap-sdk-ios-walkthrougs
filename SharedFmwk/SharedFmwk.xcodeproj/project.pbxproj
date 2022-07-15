@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13673EB7D57B007E9F58557C /* DefaultAuxiliaryDataServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1600477ED0938D0B5406E /* DefaultAuxiliaryDataServiceProvider.swift */; };
+		471D52B6649C372868F58081 /* AuxiliaryOnboardingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053EE3C92C9385A81695BE20 /* AuxiliaryOnboardingUtil.swift */; };
+		564B59D5508BDF4F55200499 /* WidgetControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1618860219626DBD00A52F4E /* WidgetControlling.swift */; };
+		6B2F4A9A337A1AE3B8CBF7A3 /* SAPCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF08B45D9F83856B624DE34 /* SAPCommon.xcframework */; };
+		73DA1328534FB23F8697A33F /* ESPMContainerCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F825828AA610048FE7F9325 /* ESPMContainerCollectionType.swift */; };
+		90585977D3539C5200738C27 /* WidgetDataKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DE12C1A1332EA1D038F74 /* WidgetDataKey.swift */; };
+		98E7A681D6859B6DF76ECB48 /* ODataControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8AE5BB0D976FF443E5CDEB /* ODataControlling.swift */; };
+		A5829B257047C06B8518D182 /* SAPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A2A8F82AA69FDC39EE916 /* SAPFoundation.xcframework */; };
+		A92F22B8C0C5306A284EFECA /* AuxiliaryConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB03EB6F4FD41955398449 /* AuxiliaryConfiguration.swift */; };
+		B508CA1250C6CA262C6BB4A1 /* SAPOfflineOData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E89DF19F0E6F7D4720A2D30 /* SAPOfflineOData.xcframework */; };
+		BA039B66861C5D7BECA447D1 /* ESPMContainerWidgetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AFA824C0CCE31AFBDE10FE /* ESPMContainerWidgetController.swift */; };
+		D1BBA43A1F3230CB7096C49F /* SAPOData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93DCD0E71B52BD9A5D32DC9 /* SAPOData.xcframework */; };
+		DD5DD482990D5489FD4EBFEB /* ESPMContainerFmwk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B55B656630FE0CDF4BAE197 /* ESPMContainerFmwk.framework */; };
+		EC0DD70E5AD262446618DB72 /* ESPMContainerOfflineODataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3C3BADCC97425A262602E /* ESPMContainerOfflineODataController.swift */; };
+		EFA7146CA93F6C672A8A221A /* ODataContainerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A89955B1E0B8F8A45295EB3 /* ODataContainerType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		053EE3C92C9385A81695BE20 /* AuxiliaryOnboardingUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuxiliaryOnboardingUtil.swift; path = Widget/Core/AuxiliaryOnboardingUtil.swift; sourceTree = "<group>"; };
+		1618860219626DBD00A52F4E /* WidgetControlling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetControlling.swift; path = Widget/Core/Controllers/WidgetControlling.swift; sourceTree = "<group>"; };
+		2CF08B45D9F83856B624DE34 /* SAPCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = "../Release-xcframework/SAPCommon.xcframework"; sourceTree = "<group>"; };
+		2E89DF19F0E6F7D4720A2D30 /* SAPOfflineOData.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPOfflineOData.xcframework; path = "../Release-xcframework/SAPOfflineOData.xcframework"; sourceTree = "<group>"; };
+		2F825828AA610048FE7F9325 /* ESPMContainerCollectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerCollectionType.swift; path = Model/ESPMContainerCollectionType.swift; sourceTree = "<group>"; };
+		3B3A2A8F82AA69FDC39EE916 /* SAPFoundation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = "../Release-xcframework/SAPFoundation.xcframework"; sourceTree = "<group>"; };
+		4A89955B1E0B8F8A45295EB3 /* ODataContainerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataContainerType.swift; path = Model/ODataContainerType.swift; sourceTree = "<group>"; };
+		6B55B656630FE0CDF4BAE197 /* ESPMContainerFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 1; path = ESPMContainerFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEB03EB6F4FD41955398449 /* AuxiliaryConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuxiliaryConfiguration.swift; path = Widget/Core/AuxiliaryConfiguration.swift; sourceTree = "<group>"; };
+		821DE12C1A1332EA1D038F74 /* WidgetDataKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetDataKey.swift; path = Widget/Core/WidgetDataKey.swift; sourceTree = "<group>"; };
+		91C75DB92463F04100ECC4ED /* SharedFmwk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SharedFmwk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C75DBD2463F04100ECC4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C3C3BADCC97425A262602E /* ESPMContainerOfflineODataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerOfflineODataController.swift; path = OData/ESPMContainerOfflineODataController.swift; sourceTree = "<group>"; };
+		C2AFA824C0CCE31AFBDE10FE /* ESPMContainerWidgetController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerWidgetController.swift; path = Widget/Core/Controllers/ESPMContainerWidgetController.swift; sourceTree = "<group>"; };
+		E1A1600477ED0938D0B5406E /* DefaultAuxiliaryDataServiceProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAuxiliaryDataServiceProvider.swift; path = Widget/Core/DefaultAuxiliaryDataServiceProvider.swift; sourceTree = "<group>"; };
+		E93DCD0E71B52BD9A5D32DC9 /* SAPOData.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SAPOData.xcframework; path = "../Release-xcframework/SAPOData.xcframework"; sourceTree = "<group>"; };
+		FD8AE5BB0D976FF443E5CDEB /* ODataControlling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataControlling.swift; path = OData/ODataControlling.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91C75DB62463F04100ECC4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5829B257047C06B8518D182 /* SAPFoundation.xcframework in Frameworks */,
+				DD5DD482990D5489FD4EBFEB /* ESPMContainerFmwk.framework in Frameworks */,
+				6B2F4A9A337A1AE3B8CBF7A3 /* SAPCommon.xcframework in Frameworks */,
+				D1BBA43A1F3230CB7096C49F /* SAPOData.xcframework in Frameworks */,
+				B508CA1250C6CA262C6BB4A1 /* SAPOfflineOData.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1789C791EB27012F30D6EDCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1618860219626DBD00A52F4E /* WidgetControlling.swift */,
+				C2AFA824C0CCE31AFBDE10FE /* ESPMContainerWidgetController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		653A63BF58CBD83540D7526C /* OData */ = {
+			isa = PBXGroup;
+			children = (
+				FD8AE5BB0D976FF443E5CDEB /* ODataControlling.swift */,
+				99C3C3BADCC97425A262602E /* ESPMContainerOfflineODataController.swift */,
+			);
+			name = OData;
+			sourceTree = "<group>";
+		};
+		8510A0C682650B464B4942C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A89955B1E0B8F8A45295EB3 /* ODataContainerType.swift */,
+				2F825828AA610048FE7F9325 /* ESPMContainerCollectionType.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		91C75DAF2463F04100ECC4ED = {
+			isa = PBXGroup;
+			children = (
+				91C75DBB2463F04100ECC4ED /* SharedFmwk */,
+				91C75DBA2463F04100ECC4ED /* Products */,
+				FE20CE9C9D7D95BAE10A7B87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91C75DBA2463F04100ECC4ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91C75DB92463F04100ECC4ED /* SharedFmwk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91C75DBB2463F04100ECC4ED /* SharedFmwk */ = {
+			isa = PBXGroup;
+			children = (
+				91C75DBD2463F04100ECC4ED /* Info.plist */,
+				653A63BF58CBD83540D7526C /* OData */,
+				8510A0C682650B464B4942C4 /* Model */,
+				C41DA69982ED957301F37F92 /* Widget */,
+			);
+			path = SharedFmwk;
+			sourceTree = "<group>";
+		};
+		B44A32278DAA19B7FDBC9E7E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1789C791EB27012F30D6EDCD /* Controllers */,
+				821DE12C1A1332EA1D038F74 /* WidgetDataKey.swift */,
+				E1A1600477ED0938D0B5406E /* DefaultAuxiliaryDataServiceProvider.swift */,
+				053EE3C92C9385A81695BE20 /* AuxiliaryOnboardingUtil.swift */,
+				6BEB03EB6F4FD41955398449 /* AuxiliaryConfiguration.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C41DA69982ED957301F37F92 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				B44A32278DAA19B7FDBC9E7E /* Core */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		FE20CE9C9D7D95BAE10A7B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A2A8F82AA69FDC39EE916 /* SAPFoundation.xcframework */,
+				6B55B656630FE0CDF4BAE197 /* ESPMContainerFmwk.framework */,
+				2CF08B45D9F83856B624DE34 /* SAPCommon.xcframework */,
+				E93DCD0E71B52BD9A5D32DC9 /* SAPOData.xcframework */,
+				2E89DF19F0E6F7D4720A2D30 /* SAPOfflineOData.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91C75DB42463F04100ECC4ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		91C75DB82463F04100ECC4ED /* SharedFmwk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C75DC12463F04100ECC4ED /* Build configuration list for PBXNativeTarget "SharedFmwk" */;
+			buildPhases = (
+				91C75DB42463F04100ECC4ED /* Headers */,
+				91C75DB52463F04100ECC4ED /* Sources */,
+				91C75DB62463F04100ECC4ED /* Frameworks */,
+				91C75DB72463F04100ECC4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SharedFmwk;
+			productName = SharedFmwk;
+			productReference = 91C75DB92463F04100ECC4ED /* SharedFmwk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91C75DB02463F04100ECC4ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					91C75DB82463F04100ECC4ED = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 91C75DB32463F04100ECC4ED /* Build configuration list for PBXProject "SharedFmwk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91C75DAF2463F04100ECC4ED;
+			productRefGroup = 91C75DBA2463F04100ECC4ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91C75DB82463F04100ECC4ED /* SharedFmwk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91C75DB72463F04100ECC4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91C75DB52463F04100ECC4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E7A681D6859B6DF76ECB48 /* ODataControlling.swift in Sources */,
+				EC0DD70E5AD262446618DB72 /* ESPMContainerOfflineODataController.swift in Sources */,
+				EFA7146CA93F6C672A8A221A /* ODataContainerType.swift in Sources */,
+				73DA1328534FB23F8697A33F /* ESPMContainerCollectionType.swift in Sources */,
+				564B59D5508BDF4F55200499 /* WidgetControlling.swift in Sources */,
+				BA039B66861C5D7BECA447D1 /* ESPMContainerWidgetController.swift in Sources */,
+				90585977D3539C5200738C27 /* WidgetDataKey.swift in Sources */,
+				13673EB7D57B007E9F58557C /* DefaultAuxiliaryDataServiceProvider.swift in Sources */,
+				471D52B6649C372868F58081 /* AuxiliaryOnboardingUtil.swift in Sources */,
+				A92F22B8C0C5306A284EFECA /* AuxiliaryConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91C75DBF2463F04100ECC4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91C75DC02463F04100ECC4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91C75DC22463F04100ECC4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SharedFmwk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "consulting.b2rise.SDK-iOS-I.SharedFmwk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91C75DC32463F04100ECC4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SharedFmwk/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "consulting.b2rise.SDK-iOS-I.SharedFmwk";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91C75DB32463F04100ECC4ED /* Build configuration list for PBXProject "SharedFmwk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C75DBF2463F04100ECC4ED /* Debug */,
+				91C75DC02463F04100ECC4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C75DC12463F04100ECC4ED /* Build configuration list for PBXNativeTarget "SharedFmwk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C75DC22463F04100ECC4ED /* Debug */,
+				91C75DC32463F04100ECC4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91C75DB02463F04100ECC4ED /* Project object */;
+}
